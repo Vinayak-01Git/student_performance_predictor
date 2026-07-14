@@ -33,7 +33,7 @@ if st.button("Predict Score"):
     
     # Animation time
     if predicted_score >= 80:
-        st.balloons() # Throws celebratory balloons on the screen!
+        st.balloons()
         st.markdown("#### ❤️‍🔥 **Woohoo! Absolutely phenomenal! Keep shining!**")
         
     elif predicted_score >= 70:
